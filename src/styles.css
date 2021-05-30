@@ -1,0 +1,28 @@
+body {
+  background-color: #9ce39a;
+  margin: 0;
+}
+.marquee-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-y: hidden;
+}
+.background-marquee {
+  color: #faff00;
+  font-family: "Bungee Shade", cursive;
+  font-size: 6rem;
+}
+.text {
+  position: absolute;
+  width: 60%;
+  text-align: center;
+}
+.text p {
+  margin: 1rem;
+  color: #2c28e3;
+  font-family: "Courier Prime", monospace;
+  font-size: 2rem;
+}
