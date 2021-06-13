@@ -1,0 +1,37 @@
+body {
+  background-color: #2727e6;
+  margin: 0;
+}
+.page-title {
+  color: #faff00;
+  font-family: "Bungee Shade", cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.one {
+  color: #faff00;
+  font-family: "Courier Prime", monospace;
+  font-size: 2rem;
+  text-align: center;
+}
+.image-one {
+  display: none;
+  height: 300px;
+  margin: 0 auto;
+}
+p.one:hover img.image-one {
+  display: block;
+}
+.two {
+  color: #faff00;
+  font-family: "Courier Prime", monospace;
+  font-size: 2rem;
+  text-align: center;
+}
+.three {
+  color: #faff00;
+  font-family: "Courier Prime", monospace;
+  font-size: 2rem;
+  text-align: center;
+}
