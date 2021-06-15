@@ -1,6 +1,7 @@
 body {
   background-color: #9ce39a;
   margin: 0;
+  position: relative;
 }
 .marquee-group {
   display: flex;
@@ -15,14 +16,94 @@ body {
   font-family: "Bungee Shade", cursive;
   font-size: 6rem;
 }
-.text {
-  position: absolute;
-  width: 60%;
+marquee {
   text-align: center;
 }
-.text p {
+.text {
   margin: 1rem;
+}
+.text p {
+  padding: 2rem;
   color: #2c28e3;
   font-family: "Courier Prime", monospace;
   font-size: 2rem;
+  text-align: center;
+}
+/* friendship pack door */
+.door-image-container {
+  float: right;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+.door-image-container img.image-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.door-image-container:hover img.image-hover {
+  opacity: 1;
+}
+.door-title-1 {
+  font-family: "Courier Prime", monospace;
+  color: #2c28e3;
+  background-color: pink;
+}
+
+/* love letters */
+.door-image-container-2 {
+  float: right;
+  position: absolute;
+  right: 200px;
+  top: 300px;
+}
+.door-image-container-2 img.image-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.door-image-container-2:hover img.image-hover {
+  opacity: 1;
+}
+.door-title {
+  font-family: "Courier Prime", monospace;
+  color: #2c28e3;
+  background-color: pink;
+}
+
+/* handpoke tattoos */
+
+.door-image-container-3 {
+  float: right;
+  position: absolute;
+  left: 720px;
+  top: 680px;
+}
+.door-image-container-3 img.image-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.door-image-container-3:hover img.image-hover {
+  opacity: 1;
+}
+.door-title {
+  font-family: "Courier Prime", monospace;
+  color: #2c28e3;
+  background-color: pink;
 }
