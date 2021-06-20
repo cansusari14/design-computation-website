@@ -6,5 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>friendship pack</title>
   </head>
-  <body></body>
+  <style type="text/css">
+    * {
+      cursor: url(src/img/heart-icon.png), auto !important;
+    }
+    body {
+      margin: 0;
+    }
+    .main-image {
+      max-width: 100%;
+      position: relative;
+    }
+    .pdf-links {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 50px;
+      right: 50px;
+    }
+  </style>
+  <body>
+    <img
+      class="main-image"
+      src="src/img/friendship-pack-main.png"
+      alt="friendship-pack-main"
+    />
+    <div class="pdf-links">
+      <a href="src/img/friendship-pack-icon-01-pdf.pdf" download
+        ><img src="src/img/friendship-pack-icon-1.png" width="150px" alt=""
+      /></a>
+      <a href="src/img/friendship-pack-icon-02-pdf.pdf" download
+        ><img src="src/img/friendship-pack-icon-2.png" width="150px" alt=""
+      /></a>
+    </div>
+  </body>
 </html>
