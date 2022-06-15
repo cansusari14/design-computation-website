@@ -10,6 +10,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   overflow-y: hidden;
+  z-index: -1;
 }
 .background-marquee {
   color: #faff00;
@@ -29,12 +30,27 @@ marquee {
   font-size: 2rem;
   text-align: center;
 }
+/* .doors-group {
+margin:0 auto
+} */
+ul{
+  position: relative;
+  top: -600px;
+  text-align: center;
+  z-index: 1;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 10%;
+}
 /* friendship pack door */
 .door-image-container {
-  float: right;
+  /* float: right;
   position: absolute;
   left: 100px;
-  top: 100px;
+  top: 100px; */
+  position:relative
 }
 .door-image-container img.image-hover {
   position: absolute;
@@ -57,10 +73,11 @@ marquee {
 
 /* love letters */
 .door-image-container-2 {
-  float: right;
+  /* float: right;
   position: absolute;
   right: 200px;
-  top: 300px;
+  top: 300px; */
+  position:relative
 }
 .door-image-container-2 img.image-hover {
   position: absolute;
@@ -84,10 +101,11 @@ marquee {
 /* handpoke tattoos */
 
 .door-image-container-3 {
-  float: right;
+  /* float: right;
   position: absolute;
   left: 720px;
-  top: 680px;
+  top: 680px; */
+  position:relative
 }
 .door-image-container-3 img.image-hover {
   position: absolute;
@@ -107,3 +125,6 @@ marquee {
   color: #2c28e3;
   background-color: pink;
 }
+ul li a{
+  display:inline-block;
+  width:100px;}/*or the width you want*/
